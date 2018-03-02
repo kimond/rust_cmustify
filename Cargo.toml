@@ -1,0 +1,7 @@
+[package]
+name = "cmustify"
+version = "0.1.0"
+authors = ["Kim Desrosiers <kimdesro@gmail.com>"]
+
+[dependencies]
+notify-rust = "3.4.2"

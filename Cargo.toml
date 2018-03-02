@@ -1,7 +1,14 @@
 [package]
 name = "cmustify"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Kim Desrosiers <kimdesro@gmail.com>"]
+description = "Show desktop notification with cmus information"
+homepage = "https://github.com/kimond/rust_cmustify"
+repository = "https://github.com/kimond/rust_cmustify"
+
+license = "MIT"
+keywords = ["cmus", "notification"]
+readme = "README.md"
 
 [dependencies]
 notify-rust = "3.4.2"

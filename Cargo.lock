@@ -45,7 +45,7 @@ dependencies = [
 
 [[package]]
 name = "cmustify"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "notify-rust 3.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]

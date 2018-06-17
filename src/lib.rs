@@ -3,9 +3,9 @@ extern crate notify_rust;
 use std::collections::HashMap;
 use notify_rust::Notification;
 
-const BREAK_TAG: &'static str = "!break!";
+const BREAK_TAG: &str = "!break!";
 
-const VALID_TAGS: [&'static str; 11] = ["status", "url", "file", "artist", "album", "discnumber", "tracknumber", "title", "date", "duration", BREAK_TAG];
+const VALID_TAGS: [&str; 11] = ["status", "url", "file", "artist", "album", "discnumber", "tracknumber", "title", "date", "duration", BREAK_TAG];
 
 pub type Metadata = HashMap<String, String>;
 
